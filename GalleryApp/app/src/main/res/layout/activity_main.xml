@@ -23,9 +23,15 @@
             style="@style/VerticalColumn"
             />
         <ImageView
+            android:id="@+id/firework"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_launcher_background"
+            android:adjustViewBounds="true"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp"
             />
         <LinearLayout
             android:id="@+id/right"
@@ -33,6 +39,17 @@
             android:layout_height="match_parent"
             android:orientation="horizontal"
             style="@style/VerticalColumn"
+            />
+        <ImageView
+            android:id="@+id/shoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background"
+            android:adjustViewBounds="true"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp"
             />
     </LinearLayout>
 
